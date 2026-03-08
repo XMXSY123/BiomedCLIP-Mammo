@@ -20,7 +20,7 @@ build/
 
 
 # 预处理输出（按需保留或忽略）
-# Processed_Mammo/
+# processed_Mammo/
 # Processed_Mammo_Masks/
 
 # 系统
@@ -33,8 +33,7 @@ desktop.ini
 *.tmp
 .cache/
 
-# 若不想把原始图像/遮罩纳入版本库，可取消下行注释
 TIFF Images/
-ROI_masks/
+ROI masks/
 Pixel-level annotation/
 biomedclip_contrastive_checkpoints/
