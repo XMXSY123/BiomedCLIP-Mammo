@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+
+
+# 预处理输出（按需保留或忽略）
+# Processed_Mammo/
+# Processed_Mammo_Masks/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时
+*.log
+*.tmp
+.cache/
+
+# 若不想把原始图像/遮罩纳入版本库，可取消下行注释
+TIFF Images/
+ROI_masks/
+Pixel-level annotation/
+biomedclip_contrastive_checkpoints/
